@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABG Interpretation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ABG Interpretation</h1>
+        <form id="abgForm">
+            <label for="ph">pH:</label>
+            <input type="number" id="ph" step="0.01">
+            <label for="pco2">PaCO₂:</label>
+            <input type="number" id="pco2" step="0.01">
+            <label for="hco3">HCO₃⁻:</label>
+            <input type="number" id="hco3" step="0.01">
+            <label for="pao2">PaO₂:</label>
+            <input type="number" id="pao2" step="0.01">
+            <label for="sao2">SaO₂:</label>
+            <input type="number" id="sao2" step="0.01">
+            <button type="button" id="interpretBtn">Interpret</button>
+        </form>
+
+        <div id="result"></div>
+        <div id="details"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

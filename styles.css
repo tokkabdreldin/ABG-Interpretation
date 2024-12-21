@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://www.vettimes.co.uk/app/uploads/2017/12/alveoli_AdobeStock-4designersart.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.109);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  max-width: 800px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #1c15d8;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  color: #1c0edfca;
+  font-size: 1.3em;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0 20px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1.1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  background-color: #db13c4;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #e11ac6;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #2313d9;
+  font-size: 1.2em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#result h2 {
+  margin: 0;
+  color: #2313d9;
+  font-size: 1.8em;
+}
+
+button#showCauses, button#showManagement {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #e71fc9;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px 18px;
+  border-radius: 6px;
+}
+
+button#showCauses:hover, button#showManagement:hover {
+  background-color: #e42aa6;
+}
+
+#details {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #2313d9;
+  font-size: 1.2em;
+  line-height: 1.8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.compensation-status {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #aaa;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.compensation-status.normal {
+  background-color: rgba(223, 240, 216, 0.9);
+  color: #3c763d;
+}
+
+.compensation-status.compensated {
+  background-color: rgba(252, 248, 227, 0.9);
+  color: #8a6d3b;
+}
+
+.compensation-status.uncompensated {
+  background-color: rgba(242, 222, 222, 0.9);
+  color: #a94442;
+}
